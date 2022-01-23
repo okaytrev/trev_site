@@ -1,0 +1,189 @@
+html {
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+    min-width: 400px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.navigation {
+    padding: 20px 10px;
+    overflow: hidden;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    font-size: 1em;
+    line-height: 5px;
+    border-radius: 4px;
+    float: left;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.navigation .logo a {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.header_right {
+    float: right;
+}
+
+.header_right a {
+    color: white;
+}
+
+.header_right a.home {
+    background-color:black;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#home::before, #husband::before, #technologist::before, #dog::before, #athlete::before {
+    content: '';
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 1px;
+    left: 0px;
+    opacity: 0.25;
+    
+}
+
+#home, #husband, #technologist, #dog, #athlete {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 100px;
+}
+
+#home::before {
+    background-image: url('./media/trev2.jpg');
+}
+
+#home h2 {
+    position: relative;
+    font-size: 3rem;
+    line-height: 0.9;
+    text-align: left;
+}
+
+
+#husband:before {
+    background-image: url('./media/mere.jpg');
+}
+
+#husband h2, #technologist h2, #dog h2, #athlete h2{
+    position: relative;
+    font-size: 2rem;
+    line-height: 0.9;
+    text-align: left;
+}
+    
+
+#technologist::before {
+    background-image: url('./media/coding.jpeg');
+}
+
+#dog::before {
+    background-image: url('./media/jax.jpg');
+}
+
+#athlete::before {
+    background-image: url("./media/boston.png");
+}
+
+#skills h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+#skills {
+    margin-top: 100px;
+}
+
+#skills_container{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.fab {
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+    color: white;
+    padding: 1px;
+    margin: auto;
+    width: 10%;
+  }
+
+.contact {
+    margin: auto;
+    width: 100%;
+}
+
+#contact_me {
+    margin-top: 100px;
+}
+
+#contact_me h2 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.info {
+    text-align: center;
+    font-size: 1em;
+    display: inline-block;
+    color: white;
+    padding: 1px;
+    margin: auto;
+    width: 30%;
+}
+
+.info .fab {
+    padding: 10px;
+}
+
+
+
+.black {
+    background-color: #010101;
+}
+.lightgray {
+    background-color: #dcdddb;
+    color: black;
+}
+.white {
+    background-color: #ffffff;
+    color: black;
+}
+.darkgray {
+    background-color: #384142;
+}
+.medgray {
+    background-color: #788282;
+}
+.tan {
+    background-color: #af856b;
+}
