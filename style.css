@@ -172,7 +172,7 @@ body p {
 
 #contact_icon {
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
 .linkedin, .github {
