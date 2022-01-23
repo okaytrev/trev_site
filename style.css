@@ -1,3 +1,5 @@
+/*Global settings*/
+
 html {
     background-color: black;
     color: white;
@@ -8,10 +10,11 @@ html {
     margin: auto;
 }
 
+/*Navigation*/
+
 .navigation {
     padding: 20px 10px;
     overflow: hidden;
-    
 }
 
 .navigation a{
@@ -25,11 +28,12 @@ html {
     background-color: black;
     color: white;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 .navigation .logo a {
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .header_right {
@@ -50,6 +54,8 @@ html {
     color: black;
 }
 
+
+/*Background image properties */
 
 #home::before, #husband::before, #technologist::before, #dog::before, #athlete::before {
     content: '';
@@ -75,6 +81,32 @@ html {
     background-image: url('./media/trev2.jpg');
 }
 
+#husband:before {
+    background-image: url('./media/mere.jpg');
+}
+
+#technologist::before {
+    background-image: url('./media/coding_compressed.jpeg');
+}
+
+#dog::before {
+    background-image: url('./media/jax.jpg');
+}
+
+#athlete::before {
+    background-image: url("./media/boston.png");
+}
+
+#husband h2, #technologist h2, #dog h2, #athlete h2{
+    position: relative;
+    font-size: 2rem;
+    line-height: 0.9;
+    text-align: center;
+}
+
+
+/*Body text properties*/
+
 body h2 {
     text-align: center;
     font-size: 2em;
@@ -87,52 +119,14 @@ body p {
     font-weight: 200;
 }
 
-.fa-regular, fa-solid {
-    text-align: center;
-    font-size: 2em;
-    display: inline-block;
-    color: white;
-    padding: 1px;
-    margin: auto;
-    width: 10%;
-}
-
-#husband:before {
-    background-image: url('./media/mere.jpg');
-}
-
-#husband h2, #technologist h2, #dog h2, #athlete h2{
-    position: relative;
-    font-size: 2rem;
-    line-height: 0.9;
-    text-align: center;
-}
-    
-
-#technologist::before {
-    background-image: url('./media/coding.jpeg');
-}
-
-#dog::before {
-    background-image: url('./media/jax.jpg');
-}
-
-#athlete::before {
-    background-image: url("./media/boston.png");
-}
-
-
+/*Font Awesome Icons*/
 
 #skills_container{
     margin: auto;
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
-    
-}
-
-.end_paragraph {
-    margin-bottom: 100px;
+    text-align: center !important;
 }
 
 .fab {
@@ -144,6 +138,13 @@ body p {
     margin: auto;
     width: 10%;
   }
+
+
+.end_paragraph {
+    margin-bottom: 50px;
+}
+
+/* Contact info */
 
 .contact {
     margin: auto;
@@ -169,6 +170,11 @@ body p {
     text-align: center !important;
 }
 
+#contact_icon {
+    text-decoration: none;
+    color: white;
+}
+
 .linkedin, .github {
     font-size: 2em;
 }
@@ -181,23 +187,9 @@ footer {
     margin-top: 100px;
 }
 
-.black {
-    background-color: #010101;
-}
-.lightgray {
-    background-color: #dcdddb;
-    color: black;
-}
-.white {
-    background-color: #ffffff;
-    color: black;
-}
-.darkgray {
-    background-color: #384142;
-}
-.medgray {
-    background-color: #788282;
-}
-.tan {
-    background-color: #af856b;
+#foot_home {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
 }
