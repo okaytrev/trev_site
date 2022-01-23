@@ -61,15 +61,13 @@ html {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 #home, #husband, #technologist, #dog, #athlete {
     position: relative; 
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 40vh;
 }
 
@@ -77,13 +75,27 @@ html {
     background-image: url('./media/trev2.jpg');
 }
 
-#home h2 {
-    position: relative;
-    font-size: 3rem;
-    line-height: 0.9;
+body h2 {
     text-align: center;
+    font-size: 2em;
+    font-weight: 700;
 }
 
+body p {
+    text-align: center !important;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.fa-regular, fa-solid {
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+    color: white;
+    padding: 1px;
+    margin: auto;
+    width: 10%;
+}
 
 #husband:before {
     background-image: url('./media/mere.jpg');
@@ -109,19 +121,18 @@ html {
     background-image: url("./media/boston.png");
 }
 
-#skills h2 {
-    font-size: 2rem;
-    text-align: left;
-}
 
-#skills {
-    margin-top: 100px;
-}
 
 #skills_container{
     margin: auto;
     width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
+}
+
+.end_paragraph {
+    margin-bottom: 100px;
 }
 
 .fab {
@@ -139,10 +150,6 @@ html {
     width: 100%;
 }
 
-#contact_me {
-    margin-top: 100px;
-}
-
 #contact_me h2 {
     font-size: 2em;
     text-align: left;
@@ -158,6 +165,10 @@ html {
     width: 40%;
 }
 
+#contact_me {
+    text-align: center !important;
+}
+
 .linkedin, .github {
     font-size: 2em;
 }
@@ -167,6 +178,7 @@ footer {
     font-weight: 100;
     font-style: italic;
     text-align: center;
+    margin-top: 100px;
 }
 
 .black {
