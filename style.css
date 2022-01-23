@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
     font-family: "Poppins";
     min-width: 400px;
-    max-width: 1600px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -17,8 +17,8 @@ html {
 .navigation a{
     text-decoration: none;
     text-align: center;
-    padding: 12px;
-    font-size: 1em;
+    padding: 5px;
+    font-size: .75em;
     line-height: 5px;
     border-radius: 4px;
     float: left;
@@ -56,14 +56,12 @@ html {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
     position: absolute;
     top: 0px;
     right: 0px;
-    bottom: 1px;
+    bottom: 0px;
     left: 0px;
     opacity: 0.25;
-    
 }
 
 #home, #husband, #technologist, #dog, #athlete {
@@ -73,7 +71,6 @@ html {
     align-items: center;
     justify-content: center;
     height: 40vh;
-    margin-top: 100px;
 }
 
 #home::before {
@@ -84,7 +81,7 @@ html {
     position: relative;
     font-size: 3rem;
     line-height: 0.9;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -96,7 +93,7 @@ html {
     position: relative;
     font-size: 2rem;
     line-height: 0.9;
-    text-align: left;
+    text-align: center;
 }
     
 
@@ -151,21 +148,26 @@ html {
     text-align: left;
 }
 
-.info {
+.info,.linkedin,.github {
     text-align: center;
     font-size: 1em;
     display: inline-block;
     color: white;
     padding: 1px;
     margin: auto;
-    width: 30%;
+    width: 40%;
 }
 
-.info .fab {
-    padding: 10px;
+.linkedin, .github {
+    font-size: 2em;
 }
 
-
+footer {
+    font-size: .75em;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
 
 .black {
     background-color: #010101;
