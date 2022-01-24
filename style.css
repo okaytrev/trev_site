@@ -1,11 +1,4 @@
 /*Global settings*/
-@media only screen and (min-width: 600px) {
-    html {
-        min-width: 400px;
-    }
-}
-
-
 html {
     background-color: black;
     color: white;
@@ -67,7 +60,6 @@ html {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -200,4 +192,12 @@ footer {
     color: white;
     font-style: normal;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1600px) {
+    #home, #husband, #technologist, #dog, #athlete {
+        position: relative; 
+        width: 100%;
+        height: 100vh;
+    }
 }
