@@ -194,7 +194,7 @@ footer {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1200px) {
     #home, #husband, #technologist, #dog, #athlete {
         position: relative; 
         width: 100%;
