@@ -1,14 +1,20 @@
-//let contact = document.getElementById("contact_icon");
+function dark(){
+  document.getElementById("css_main").setAttribute('href', "style.css");
+}
+function light(){
+      document.getElementById("css_main").setAttribute('href', "light.css");
+}
 
-// hover_state = () => {
-//     contact.style.backgroundColor = 'white';
-//     contact.style.color = 'black'
-// }
+var main_html = document.getElementById("global_settings");
 
-// hover_out = () => {
-//     contact.style.backgroundColor = 'black';
-//     contact.style.color = 'white';
-// }
-
-// contact.addEventListener('mouseover',hover_state);
-// contact.addEventListener('mouseout',hover_out);
+function colorValue() {
+    return Math.floor(Math.random() * 256);
+  }
+  
+  function random(){
+    let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
+    main_html.style.backgroundColor = randomColor;
+    let randomColor2 = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
+    main_html.style.color = randomColor2;
+  }
+  

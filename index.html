@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="global_settings">
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188959415-1"></script>
@@ -10,8 +10,7 @@
 
         gtag('config', 'UA-188959415-1');
         </script>
-        
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css" media="" id="css_main"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +22,9 @@
         <!--Navigation-->
         <div id="top" class="navigation">
             <div class="logo">
-                <a class="logo" href="https://www.trevarhupf.com">TH</a>
+                <a class="logo" onclick="dark()">Dark</a>
+                <a class="logo" onclick="light()">Light</a>
+                <!--PLAYING WITH THIS <a class="logo" onclick="random()">Random</a>-->
             </div>
             <div class="header_right">
                 <a class="#top" href="#home">Home</a>
@@ -112,4 +113,5 @@
         <!-- hitwebcounter Code START -->
         <img src="https://hitwebcounter.com/counter/counter.php?page=7932310&style=0025&nbdigits=6&type=page&initCount=0" title="Free Counter" Alt="web counter" border="0" />
     </footer>
+    <script src="main.js"></script>
 </html>

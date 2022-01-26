@@ -1,7 +1,7 @@
 /*Global settings*/
 #global_settings {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     scroll-behavior: smooth;
     font-family: "Poppins";
     max-width: 1600px;
@@ -23,8 +23,8 @@
     line-height: 5px;
     border-radius: 4px;
     float: left;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 4px;
     font-weight: bold;
 }
@@ -39,17 +39,17 @@
 }
 
 .header_right a {
-    color: white;
+    color: black;
 }
 
 .header_right a.home {
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black;
 }
 
 .navigation a:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px;
 }
 
@@ -68,7 +68,7 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 #home, #husband, #technologist, #dog, #athlete {
@@ -95,7 +95,7 @@
 }
 
 #athlete::before {
-    background-image: url("./media/boston.png");
+    background-image: url("./media/bostonwhite.jpg");
 }
 
 #husband h2, #technologist h2, #dog h2, #athlete h2{
@@ -134,7 +134,7 @@ body p {
     text-align: center;
     font-size: 2em;
     display: inline-block;
-    color: white;
+    color: black;
     padding: 1px;
     margin: auto;
     width: 10%;
@@ -161,7 +161,7 @@ body p {
     text-align: center;
     font-size: 1em;
     display: inline-block;
-    color: white;
+    color: black;
     padding: 1px;
     margin: auto;
     width: 40%;
@@ -173,7 +173,7 @@ body p {
 
 #contact_icon {
     text-decoration: none;
-    color: white !important;
+    color: black !important;
 }
 
 .linkedin, .github {
@@ -189,7 +189,7 @@ footer {
 
 #foot_home {
     text-decoration: none;
-    color: white;
+    color: black;
     font-style: normal;
     font-weight: bold;
 }
