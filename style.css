@@ -130,7 +130,7 @@ body p {
     text-align: center !important;
 }
 
-.fab, fa-solid {
+.fab, .fa-solid {
     text-align: center;
     font-size: 2em;
     display: inline-block;
